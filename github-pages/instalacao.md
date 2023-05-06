@@ -13,16 +13,16 @@ Escolha o seu sistema operacional e siga com a instalação.
 1. Abra o "Editor de variáveis de ambiente" do Windows, clicando com o botão direito do mouse em "Este computador" e selecionando "Propriedades". Na janela que abrir, selecione "Configurações avançadas do sistema".
 
 1. Na janela "Propriedades do sistema", selecione a aba "Avançado" e clique no botão "Variáveis de ambiente".
-
+![Alt text](../assets/install-windows-6.png)
 1. Na seção "Variáveis do sistema", localize a variável "Path" e clique em "Editar".
-
+![Alt text](../assets/install-windows-7.png)
 1. Clique em "Novo" e adicione o caminho para a pasta PHP ``(exemplo: C:\php)``.
-
+![Alt text](../assets/install-windows-8.png)
 1. Clique em "OK" para fechar todas as janelas de configuração.
 
 Agora você pode testar a instalação do PHP digitando `php -v` no Prompt de Comando do Windows. Se tudo estiver correto, você verá a versão do PHP instalada na sua máquina.
 
-
+![Alt text](../assets/install-windows-10.png)
 
 ## Linux (UBUNTU)
 1. Abra um terminal no Ubuntu (você pode pressionar as teclas ``Ctrl + Alt + T`` para abrir o Terminal).
