@@ -12,6 +12,39 @@ Para saber mais sobre como instalar a linguagem na sua máquina, [clique aqui](.
 ## Sintaxe
 
 ### Como realizar um Hello World
+Para realizar um "Hello World" podemos utilizar duas formas: "echo" ou "print". "echo" é a forma padrão para o usuario imprimir uma mensagem ou variável no console, com echo o usuario pode passar vários
+argumentos que serão impressos separados por virgula
+
+```php
+echo "Hello World\n", "Hello World2\n";
+```
+
+Já o comando "print" ele faz a mesma funcao do "echo" com algumas diferenças, o comando print vai reotrnar o valor 1 por padrao, 
+por esse motivo ele é ligeiramente mais lento quando comparado com o comando "echo", com o print o usuario so pode passar um argumento por vez, 
+por conta disso o "print" se torna mais viavel para ser utlizado em expressoes.
+
+```php
+print "Hello World com print\n";
+```
+
+O comando "print" por sua vez possui algumas variações, o comando "printf" é ulitizado quando usuário quer passar uma string já formatada, nesse caso o código contém dois especificadores 
+de formato: %d para a quantidade de pessoas (um número inteiro) e %s para o localização (uma string), apos isso o comando "printf" 
+exibe a string formatada na tela.
+
+```php
+$formato = "Tem %d pessoas no %s\n";
+printf($formato,$num=5,$localizacao="parque");
+```
+Aqui temos outro exemplo so que dessa vez com o comando "sprintf", a diferença entre os dois é que o "printf" exibe a string formatada 
+diretamente na tela, enquanto o "sprintf" armazena a string formatada em uma variável para ser usada posteriormente.
+
+```php
+$dinheiro1 = 68.75;
+$dinheiro2 = 54.35;
+$dinheiro = $dinheiro1 + $dinheiro2;
+
+echo $formatado = sprintf("%01.2f", $dinheiro);
+```
 
 ### Estruturas de Condição
 
