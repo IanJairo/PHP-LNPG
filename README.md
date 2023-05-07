@@ -81,6 +81,52 @@ $media = 4;
 echo ($media >= 7) ? "Aprovado!" : "Reprovado!";
 ```
 
+###Swtich
+O switch é uma forma concisa de escrever uma sequência de "if-else" aninhados e pode ser útil em casos em que há muitas condições possíveis.
+A expressão é avaliada uma vez e o valor resultante é comparado com cada um dos casos (valores) especificados no "switch". Se o valor corresponder a um dos casos, o bloco de código correspondente será executado. A instrução "break" deve ser usada para sair do switch após a execução do bloco de código correspondente, dando continuidade ao restante do código.
+
+```php
+$corCasa = "vermelho";
+
+switch ($corCasa):
+  case "vermelho":
+    echo "Sua casa é vermelha"; // código a ser executado se $corCasa for igual a "vermelho"
+    break;
+  case "amarelo":
+    echo "Sua casa é amarela"; // código a ser executado se $corCasa for igual a "amarelo"
+    break;
+  case "azul":
+    echo "Sua casa é azul"; // código a ser executado se $corCasa for igual a "azul"
+    break;
+  // e assim por diante
+  default:
+  echo "Sua casa não é vermelha, azul ou amarela."; // código a ser executado se $expressao não corresponder a nenhum valor
+  endswitch;
+ ```
+ A estrutura pode ser finalizada de duas diferentes formas, utilizando o "endswitch" ou com o fechamento do bloco "switch{}". 
+ Segue exemplos:
+ ```php
+$variavel = 0
+
+switch ($variavel) {
+ case 1:
+  break;
+ case 2:
+  break;
+}
+```
+Ou
+```php
+$variavel = 0
+
+switch ($variavel):
+ case 1: 
+  break;
+ case 2:
+  break;
+endswitch;
+```
+
 ### Estruturas de Repetição
 A estrutura de repetição no PHP permite que um conjunto de instruções seja executado várias vezes com base em uma condição específica. Existem duas estruturas de repetição principais no PHP: "while" e "for".
 
