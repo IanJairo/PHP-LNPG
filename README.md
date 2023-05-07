@@ -2,6 +2,12 @@
  
 ## Contexto Histórico
 
+O PHP (Hypertext Preprocessor) é uma linguagem de programação de código aberto amplamente utilizada para o desenvolvimento de aplicativos web dinâmicos. Criado em 1994 por Rasmus Lerdorf, inicialmente era uma coleção de scripts CGI (Common Gateway Interface) escritos em C para gerar páginas da Web. Mais tarde, Lerdorf desenvolveu uma linguagem de script mais avançada e a disponibilizou para uso público.
+
+Em 1997, dois desenvolvedores, Andi Gutmans e Zeev Suraski, reescreveram o núcleo do PHP e lançaram a primeira versão da linguagem, o PHP 3, que incluía suporte para bancos de dados e extensões de servidor. Isso tornou a linguagem mais adequada para o desenvolvimento de aplicativos web complexos.
+
+Desde então, o PHP evoluiu muito, com o lançamento de versões subsequentes, como o PHP 4, PHP 5, PHP 7 e PHP 8. Essas versões adicionaram novos recursos e melhoraram a eficiência e segurança da linguagem. 
+
 ## Características Gerais
 
 
