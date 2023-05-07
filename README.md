@@ -81,7 +81,7 @@ $media = 4;
 echo ($media >= 7) ? "Aprovado!" : "Reprovado!";
 ```
 
-###Swtich
+### Switch
 O switch é uma forma concisa de escrever uma sequência de "if-else" aninhados e pode ser útil em casos em que há muitas condições possíveis.
 A expressão é avaliada uma vez e o valor resultante é comparado com cada um dos casos (valores) especificados no "switch". Se o valor corresponder a um dos casos, o bloco de código correspondente será executado. A instrução "break" deve ser usada para sair do switch após a execução do bloco de código correspondente, dando continuidade ao restante do código.
 
