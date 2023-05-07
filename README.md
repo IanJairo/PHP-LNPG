@@ -47,7 +47,33 @@ echo $formatado = sprintf("%01.2f", $dinheiro);
 ```
 
 ### Estruturas de Condição
+Uma estrutura de condição é uma construção de programação que permite que um bloco de código seja executado apenas se uma determinada condição for verdadeira. Existem duas principais estruturas de condição em PHP: "if" e "switch". 
 
+### ***If/elseif/else***
+A estrutura "if" é usada para executar um bloco de código somente se uma determinada condição for verdadeira. 
+
+Iniciamos indicando o "if" com a condição entre parenteses e logo seguida a ação que o mesmo irá realizar, se a condição for verdadeira, a mensagem "É igual a 10" será exibida na tela pela instrução "echo", caso a condição seja falsa, o próximo bloco "elseif" será avaliado, se a condição for verdadeira, a mensagem "É menor que 10" será exibida na tela, caso contrário, ou seja, se ambas as condições anteriores forem falsas, o bloco "else" é executado, exibindo a mensagem "É maior que 10" :
+
+```php
+$numero = 2;
+
+if ($numero == 10):
+    echo "É igual a 10\n";
+elseif($numero < 10):
+    echo "É menor que 10\n";
+else:
+    echo "É maior que 10\n";
+endif;
+```
+Ao final da execução sempre colocar o endif para indicar o fim da estrutura.
+
+A estrutura de condição "if" também pode ser representada através de um operador ternario em apenas uma linha de código. Iniciamos colocando entre parenteses a condicao a ser seguida, logo apos utilizamos "?" para indicar o if e o que 
+sera impresso no terminal caso a condicao seja verdadeira, em seguida utilizamos o ":" para indicar o else e imprimir no terminal caso a condicao seja falsa:
+
+```php
+$media = 4;
+echo ($media >= 7) ? "Aprovado!" : "Reprovado!";
+```
 
 ### Estruturas de Repetição
 A estrutura de repetição no PHP permite que um conjunto de instruções seja executado várias vezes com base em uma condição específica. Existem duas estruturas de repetição principais no PHP: "while" e "for".
