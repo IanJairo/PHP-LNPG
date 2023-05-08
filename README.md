@@ -10,6 +10,7 @@ Desde então, o PHP evoluiu muito, com o lançamento de versões subsequentes, c
 
 ## Características Gerais
 
+O PHP é uma linguagem de programação popular e flexível, com uma sintaxe semelhante a outras linguagens populares, como C e Java. Pode ser  executado em vários sistemas operacionais e servidores web, e é uma linguagem de código aberto com suporte embutido para vários bancos de dados populares. O PHP possui uma grande comunidade de desenvolvedores, pois é fácil de integrar com outras tecnologias. e possui recursos de segurança embutidos.
 
 
 ## Instalação
