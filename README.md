@@ -11,11 +11,12 @@ Olá, bem-vindos.
 Neste tutorial você aprenderá o básico sobre PHP. 
 
 *******
-***Tabela de conteúdo***
+## ***Tabela de conteúdo***
  1. [Contexto Histórico](#contexto-histórico)
  1. [Características Gerais](#características_gerais)
  1. [Instalação](#instalação)
  1. [Sintaxe](#sintaxe)
+    - [Declação de Variáveis](#declaração-de-variáveis)
     -  [Como realizar um Hello World](#como-realizar-um-hello-world)
     - [Estruturas de Condição](#estruturas-de-condição)
         - [If/elseif/else](#ifelseifelse)
@@ -24,6 +25,7 @@ Neste tutorial você aprenderá o básico sobre PHP.
         - [For](#for)
         - [While](#while)
     - [Modularização (Funções)](#modularização-funções)
+
 
 *******
  
@@ -48,6 +50,25 @@ Para saber mais sobre como instalar a linguagem na sua máquina, [clique aqui](.
 Caso não consiga instalar na sua maquina, é possível rodar seu códigos no [compilador online](https://www.programiz.com/php/online-compiler/).
 
 ## Sintaxe
+
+### ***Declaração de variáveis***
+
+
+No PHP, as variáveis são declaradas usando o símbolo "$" seguido pelo nome da variável. A declaração de variáveis no PHP é bastante simples e não requer nenhum tipo específico de declaração, como em outras linguagens de programação.
+
+Aqui está um exemplo de como declarar uma variável no PHP
+
+```php
+$nome = "Maria";
+$idade = 25;
+$altura = 1.68;
+```
+
+Neste exemplo, três variáveis são declaradas: $nome, $idade e $altura. A primeira variável armazena uma string, enquanto as outras duas armazenam números inteiros e decimais, respectivamente.
+
+Note que o tipo de dado da variável é determinado automaticamente pelo PHP, dependendo do valor atribuído a ela. O PHP é uma linguagem de programação fracamente tipada, o que significa que não há necessidade de declarar explicitamente o tipo de dado de uma variável.
+
+Outra coisa importante a mencionar é que as variáveis no PHP são sensíveis a maiúsculas e minúsculas. Isso significa que $nome e $Nome são variáveis diferentes no PHP.
 
 ### ***Como realizar um Hello World***
 Para realizar um "Hello World" podemos utilizar duas formas: "echo" ou "print". "echo" é a forma padrão para o usuario imprimir uma mensagem ou variável no console, com echo o usuario pode passar vários
