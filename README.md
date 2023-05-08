@@ -1,4 +1,31 @@
 # Linguagem de Progamação - **PHP**
+
+
+
+
+<p align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/1280px-Webysther_20160423_-_Elephpant.svg.png"   width="300">
+</p>
+
+Olá, bem-vindos.  
+Neste tutorial você aprenderá o básico sobre PHP. 
+
+*******
+***Tabela de conteúdo***
+ 1. [Contexto Histórico](#contexto-histórico)
+ 1. [Características Gerais](#características_gerais)
+ 1. [Instalação](#instalação)
+ 1. [Sintaxe](#sintaxe)
+    -  [Como realizar um Hello World](#como-realizar-um-hello-world)
+    - [Estruturas de Condição](#estruturas-de-condição)
+        - [If/elseif/else](#ifelseifelse)
+        - [Switch](#switch)
+    - [Estruturas de Repetição](#estruturas-de-repetição)
+        - [For](#for)
+        - [While](#while)
+    - [Modularização (Funções)](#modularização-funções)
+
+*******
  
 ## Contexto Histórico
 
@@ -15,6 +42,10 @@ O PHP é uma linguagem de programação popular e flexível, com uma sintaxe sem
 
 ## Instalação
 Para saber mais sobre como instalar a linguagem na sua máquina, [clique aqui](./github-pages/instalacao.md) para ir ao guia.
+
+<br>
+
+Caso não consiga instalar na sua maquina, é possível rodar seu códigos no [compilador online](https://www.programiz.com/php/online-compiler/).
 
 ## Sintaxe
 
