@@ -1,4 +1,4 @@
-# PHP-LNPG
+# Linguagem de Progamação - **PHP**
  
 ## Contexto Histórico
 
@@ -18,7 +18,7 @@ Para saber mais sobre como instalar a linguagem na sua máquina, [clique aqui](.
 
 ## Sintaxe
 
-### Como realizar um Hello World
+### ***Como realizar um Hello World***
 Para realizar um "Hello World" podemos utilizar duas formas: "echo" ou "print". "echo" é a forma padrão para o usuario imprimir uma mensagem ou variável no console, com echo o usuario pode passar vários
 argumentos que serão impressos separados por virgula
 
@@ -53,10 +53,10 @@ $dinheiro = $dinheiro1 + $dinheiro2;
 echo $formatado = sprintf("%01.2f", $dinheiro);
 ```
 
-### Estruturas de Condição
+### ***Estruturas de Condição***
 Uma estrutura de condição é uma construção de programação que permite que um bloco de código seja executado apenas se uma determinada condição for verdadeira. Existem duas principais estruturas de condição em PHP: "if" e "switch". 
 
-### ***If/elseif/else***
+#### If/elseif/else
 A estrutura "if" é usada para executar um bloco de código somente se uma determinada condição for verdadeira. 
 
 Iniciamos indicando o "if" com a condição entre parenteses e logo seguida a ação que o mesmo irá realizar, se a condição for verdadeira, a mensagem "É igual a 10" será exibida na tela pela instrução "echo", caso a condição seja falsa, o próximo bloco "elseif" será avaliado, se a condição for verdadeira, a mensagem "É menor que 10" será exibida na tela, caso contrário, ou seja, se ambas as condições anteriores forem falsas, o bloco "else" é executado, exibindo a mensagem "É maior que 10" :
@@ -82,7 +82,7 @@ $media = 4;
 echo ($media >= 7) ? "Aprovado!" : "Reprovado!";
 ```
 
-### Switch
+#### Switch
 O switch é uma forma concisa de escrever uma sequência de "if-else" aninhados e pode ser útil em casos em que há muitas condições possíveis.
 A expressão é avaliada uma vez e o valor resultante é comparado com cada um dos casos (valores) especificados no "switch". Se o valor corresponder a um dos casos, o bloco de código correspondente será executado. A instrução "break" deve ser usada para sair do switch após a execução do bloco de código correspondente, dando continuidade ao restante do código.
 
@@ -128,10 +128,10 @@ switch ($variavel):
 endswitch;
 ```
 
-### Estruturas de Repetição
+### ***Estruturas de Repetição***
 A estrutura de repetição no PHP permite que um conjunto de instruções seja executado várias vezes com base em uma condição específica. Existem duas estruturas de repetição principais no PHP: "while" e "for".
 
-### ***For***
+#### For
 A estrutura "for" é usada quando se sabe quantas vezes um conjunto de instruções precisa ser repetido.
 
 A condição é definida na declaração do loop e, se for verdadeira, as instruções dentro do loop serão executadas.
@@ -202,7 +202,7 @@ for ($i = 1; $i <= 50; $i++) {
 
 
 
-### ***while***
+#### while
 A estrutura "while" é usada quando não se sabe quantas vezes um conjunto de instruções precisará ser repetido. 
 
 A condição é testada antes de cada iteração e, se for verdadeira, as instruções dentro do loop serão executadas. 
@@ -276,7 +276,7 @@ No entanto, assim como em qualquer loop, é importante ter cuidado para evitar l
 
 ```
 
-### Modularização (Funções)
+### ***Modularização (Funções)***
 
 As funções são blocos de código que podem ser reutilizados em diferentes partes de um programa. Em PHP, as funções são definidas usando a palavra-chave "function" seguida do nome da função, uma lista de parâmetros (se houver) e o corpo da função.
 
